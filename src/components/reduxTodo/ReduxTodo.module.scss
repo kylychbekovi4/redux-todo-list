@@ -1,0 +1,49 @@
+.ReduxTodo {
+	.Inputs {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.Render {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+		margin-top: 50px;
+	}
+
+	.Result_render {
+		border: 1px solid black;
+		box-shadow: 0 0 10px black;
+		padding: 20px;
+
+		h1 {
+			display: flex;
+			justify-content: center;
+		}
+
+		p {
+			display: flex;
+			justify-content: center;
+			padding-top: 20px;
+			align-items: center;
+		}
+
+		img {
+			width: 100%;
+			max-width: 250px;
+			height: auto;
+			border-radius: 5px;
+			padding-top: 20px;
+		}
+
+		.Edit_buttons {
+			display: flex;
+			justify-content: flex-end;
+			align-items: end;
+			margin-top: 10px;
+			gap: 10px;
+		}
+	}
+}
